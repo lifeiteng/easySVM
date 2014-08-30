@@ -13,7 +13,7 @@ for i = 1:40
 end
 X = [X0 X1]';
 y = [-ones(size(X0,2),1); ones(size(X1,2),1)];
-save data X0 X1 X y
+% save data X0 X1 X y
 
 plot(X0(1,:),X0(2,:), 'ko', 'MarkerFaceColor', 'y', 'MarkerSize', 7);
 hold on
